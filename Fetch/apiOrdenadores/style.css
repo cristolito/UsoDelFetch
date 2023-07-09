@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #3F2E3E;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: auto;
+    gap:40px;
+}
+.container div{
+    display: grid;
+    grid-auto-flow: auto;
+    color: #3F2E3E;
+    background-color: #EFE1D1;
+    border-radius: 15px;
+    padding: 15px;
+}
+.container div i{
+    justify-self: center;
+}
